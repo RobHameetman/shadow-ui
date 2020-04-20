@@ -1,0 +1,20 @@
+{
+	"name": "@shadow-ui/eslint-config",
+	"version": "0.0.0",
+	"description": "A standardized ESLint configuration for ShadowUI.",
+	"author": "Robert Hameetman <rob@rham.io>",
+	"homepage": "https://github.com/RobHameetman/shadow-ui",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:RobHameetman/shadow-ui.git"
+	},
+	"main": "index.js",
+	"module": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@rob.hameetman/eslint-config": "0.0.2"
+	}
+}

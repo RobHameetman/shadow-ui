@@ -1,0 +1,10 @@
+{
+  "npmClient": "npm",
+  "packages": [
+    "packages/configs",
+    "packages/core/lib/bases/*",
+    "packages/tokens",
+    "packages/types"
+  ],
+  "version": "independent"
+}

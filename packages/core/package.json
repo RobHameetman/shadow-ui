@@ -1,0 +1,26 @@
+{
+	"name": "@shadow-ui/core",
+	"version": "0.0.0",
+	"description": "ShadowUI core components for rapid prototyping.",
+	"author": "Robert Hameetman <rob@rham.ip>",
+	"homepage": "https://github.com/RobHameetman/shadow-ui",
+	"license": "MIT",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:RobHameetman/shadow-ui.git"
+	},
+	"scripts": {
+		"prepublishOnly": "npm run build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {},
+	"dependencies": {}
+}

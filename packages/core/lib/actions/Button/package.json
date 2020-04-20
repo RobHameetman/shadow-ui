@@ -1,0 +1,49 @@
+{
+	"name": "@shadow-ui/button",
+	"version": "0.0.7",
+	"description": "A base component for creating ShadowUI buttons.",
+	"author": "Robert Hameetman <rob@robhameetman.com>",
+	"homepage": "https://github.com/RobHameetman/shadow-ui",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:RobHameetman/shadow-ui.git"
+	},
+	"main": "dist/main/index.js",
+	"module": "dist/module/index.js",
+	"types": "dist/main/index.d.ts",
+	"directories": {
+		"lib": "src"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc -P tsconfig.json && tsc -P tsconfig.module.json && wca analyze src **/*.ts --outFile dist/custom-elements.json",
+		"dev": "tsc --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"lit-element": "^2.3.1",
+		"lit-html": "^1.2.1"
+	},
+	"devDependencies": {
+		"@shadow-ui/eslint-config": "0.0.0",
+		"@types/autoprefixer": "^9.7.1",
+		"@types/classnames": "^2.2.10",
+		"@types/node": "^13.7.1",
+		"@types/react": "^16.9.34",
+		"autoprefixer": "^9.7.4",
+		"tslib": "^1.10.0",
+		"typed-css-modules": "^0.6.3",
+		"typescript": "^3.7.5",
+		"web-component-analyzer": "^1.0.3",
+		"workbox-build": "4.3.1"
+	},
+	"eslintConfig": {
+		"extends": [
+			"@shadow-ui/eslint-config"
+		]
+	}
+}

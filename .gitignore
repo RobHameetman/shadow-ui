@@ -1,3 +1,10 @@
+# Build
+build
+dist
+
+# Editor
+*.code-workspace
+
 # Logs
 logs
 *.log

@@ -1,0 +1,86 @@
+import { Story, Preview, Meta, Props, html } from "@open-wc/demoing-storybook";
+
+import "./../dist/main";
+
+<Meta
+	title="Bases|Button"
+	parameters={{
+		component: "sui-button",
+		options: { selectedPanel: "storybookjs/knobs/panel" },
+	}}
+/>
+
+###### Bases
+
+# Button
+
+| **Tag**:         | `<sui-button />` |
+| ---------------- | ---------------: |
+| **Constructor**: |      `SuiButton` |
+
+With `MDX` we can define a story for `Button` right in the middle of our
+markdown documentation.
+
+## Props
+
+<Props of="sui-button" />
+
+## Primary
+
+<Preview>
+	<Story name="Primary">
+		{html`
+			<sui-button>
+				Primary Button
+			</sui-button>
+		`}
+	</Story>
+</Preview>
+
+## Secondary
+
+<Preview>
+	<Story name="Secondary">
+		{html`
+			<sui-button secondary>
+				Secondary Button
+			</sui-button>
+		`}
+	</Story>
+</Preview>
+
+## As Link
+
+<Preview>
+	<Story name="As Link">
+		{html`
+			<sui-button as="sui-link">
+				As Link
+			</sui-button>
+		`}
+	</Story>
+</Preview>
+
+## Disabled
+
+<Preview>
+	<Story name="Disabled">
+		{html`
+			<sui-button disabled>
+				Disabled Button
+			</sui-button>
+		`}
+	</Story>
+</Preview>
+
+## Full Width
+
+<Preview>
+	<Story name="Full Width">
+		{html`
+			<sui-button fullWidth>
+				Full Width Button
+			</sui-button>
+		`}
+	</Story>
+</Preview>

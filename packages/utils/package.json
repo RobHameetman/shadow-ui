@@ -1,0 +1,40 @@
+{
+	"name": "@shadow-ui/utils",
+	"version": "0.0.1",
+	"description": "Common utility types and functions for @shadow-ui packages.",
+	"author": "Robert Hameetman <rob@rham.io>",
+	"homepage": "https://github.com/RobHameetman/shadow-ui",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:RobHameetman/shadow-ui.git"
+	},
+	"main": "dist/main/index.js",
+	"module": "dist/module/index.js",
+	"types": "dist/main/index.d.ts",
+	"directories": {
+		"lib": "src"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc -P tsconfig.json && tsc -P tsconfig.module.json",
+		"dev": "tsc -P tsconfig.json --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/jest": "^25.1.4",
+		"@types/node": "^13.7.1",
+		"jest": "^25.2.3",
+		"ts-jest": "^25.2.1",
+		"tslib": "^1.10.0",
+		"typescript": "^3.7.5"
+	},
+	"eslintConfig": {
+		"extends": [
+			"@shadow-ui/eslint-config"
+		]
+	}
+}
