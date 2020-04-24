@@ -2,8 +2,8 @@
 	"name": "@shadow-ui/button",
 	"version": "0.0.7",
 	"description": "A base component for creating ShadowUI buttons.",
-	"author": "Robert Hameetman <rob@robhameetman.com>",
-	"homepage": "https://github.com/RobHameetman/shadow-ui",
+	"author": "Robert H. Hameetman <engineering@robhameetman.com>",
+	"homepage": "https://www.robhameetman.com/",
 	"license": "MIT",
 	"repository": {
 		"type": "git",

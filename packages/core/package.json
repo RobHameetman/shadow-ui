@@ -2,8 +2,8 @@
 	"name": "@shadow-ui/core",
 	"version": "0.0.0",
 	"description": "ShadowUI core components for rapid prototyping.",
-	"author": "Robert Hameetman <rob@rham.ip>",
-	"homepage": "https://github.com/RobHameetman/shadow-ui",
+	"author": "Robert H. Hameetman <engineering@robhameetman.com>",
+	"homepage": "https://www.robhameetman.com/",
 	"license": "MIT",
 	"main": "index.js",
 	"directories": {

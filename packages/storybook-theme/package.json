@@ -2,8 +2,8 @@
 	"name": "@shadow-ui/storybook-theme",
 	"version": "0.0.0",
 	"description": "A standardized theme for ShadowUI Storybook environments.",
-	"author": "Rob Hameetman <rob@rham.io>",
-	"homepage": "https://github.com/RobHameetman/shadow-ui",
+	"author": "Robert H. Hameetman <engineering@robhameetman.com>",
+	"homepage": "https://www.robhameetman.com/",
 	"license": "MIT",
 	"repository": {
 		"type": "git",

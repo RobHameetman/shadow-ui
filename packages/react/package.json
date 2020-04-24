@@ -2,8 +2,8 @@
 	"name": "@shadow-ui/eslint-config",
 	"version": "0.0.0",
 	"description": "A standardized ESLint configuration for ShadowUI.",
-	"author": "Robert Hameetman <rob@rham.io>",
-	"homepage": "https://github.com/RobHameetman/shadow-ui",
+	"author": "Robert H. Hameetman <engineering@robhameetman.com>",
+	"homepage": "https://www.robhameetman.com/",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
