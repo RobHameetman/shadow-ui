@@ -1,4 +1,4 @@
-![@shadow-ui/button][logo]
+![@shadow-ui/button][header]
 
 ![Version](https://img.shields.io/npm/v/@shadow-ui/button)
 ![Downloads](https://img.shields.io/npm/dt/@shadow-ui/button)
@@ -90,4 +90,4 @@ file for details.
 
 - Thank you to the amazing work of the Open WC project for guiding us on the path!
 
-[logo]: /.bitbucket/logo.png "@shadow-ui/button"
+[header]: /.bitbucket/readme-core-button.png "@shadow-ui/button"

@@ -1,28 +1,19 @@
-![@shadow-ui][logo]
-
-![Version](https://img.shields.io/npm/v/@shadow-ui)
-![Downloads](https://img.shields.io/npm/dt/@shadow-ui)
-![Build](https://img.shields.io/bitbucket/pipelines/shadow-ui/master)
-![License](https://img.shields.io/npm/l/@shadow-ui)
+![@shadow-ui][header]
 
 # 📦 @shadow-ui
 
 This project is a curated collection of over 100 robust and modern Web Components
 built with Lit Element.
 
-* [💼 Getting Started](#markdown-header-getting-started)
-  * [📚 Prerequisites](#markdown-header-prerequisites)
-  * [📲 Installing](#markdown-header-installing)
-* [🛠 Testing](#markdown-header-testing)
-  * [🔁 E2E](#markdown-header-e2e)
-  * [🛁 Static Analysis](#markdown-header-static-analysis)
-* [🛥 Deployment](#markdown-header-deployment)
-* [🧾 Important Dependencies](#markdown-header-important-dependencies)
-* [🙌🏼 Adding Banners](#markdown-header-adding-banners)
-* [🏷 Versioning](#markdown-header-versioning)
-* [📜 Authors](#markdown-header-authors)
-* [📄 License](#markdown-header-license)
-* [📯 Acknowledgments](#markdown-header-acknowledgments)
+- [📦 @shadow-ui](#%f0%9f%93%a6-shadow-ui)
+  - [💼 Getting Started](#%f0%9f%92%bc-getting-started)
+    - [📚 Prerequisites](#%f0%9f%93%9a-prerequisites)
+    - [📲 Installing](#%f0%9f%93%b2-installing)
+  - [🛥 Deployment](#%f0%9f%9b%a5-deployment)
+  - [🧾 Important Dependencies](#%f0%9f%a7%be-important-dependencies)
+  - [🏷 Versioning](#%f0%9f%8f%b7-versioning)
+  - [📜 Authors](#%f0%9f%93%9c-authors)
+  - [📄 License](#%f0%9f%93%84-license)
 
 ## 💼 Getting Started
 
@@ -82,4 +73,4 @@ who participated in this project.
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md)
 file for details
 
-[logo]: /.github/logo.png "@shadow-ui"
+[header]: /.github/readme-root.png "@shadow-ui"
